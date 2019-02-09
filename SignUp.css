@@ -1,0 +1,42 @@
+body{
+  background-color: rgb(204, 153, 255);
+}
+#container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#container p{
+  text-align: center;
+  font-size: 50px;
+  font-weight: bolder;
+  font-family: fantasy;
+  color: rgba(0, 0, 0, 0.7);
+}
+#container p:hover{
+  font-weight: lighter;
+ font-color: rgb(204, 153, 255);
+}
+#container input{
+  display: block;
+  font-weight: lighter;
+  font-family: fantasy;
+  width: 400px;
+  height: 40px;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  outline: none;
+}
+#container input:hover{
+ border-color:rgba(115, 0, 230, 0.7);
+}
+#container #btn-login{
+  margin: auto;
+  padding: 10px;
+  color: rgba(0, 0, 0, 0.7);
+}
+#container #btn-login:hover{
+  color: rgb(0, 0, 0);
+}
